@@ -3,7 +3,7 @@ from django.urls import include, path
 from ayo.views import *
 
 urlpatterns = [
-    path('', fira, name='fira'),
+    path('', vina, name='vina'),
     # path('hom', hom, name='hom'),
     # path('comen', comen, name='comen'),
     # path('contact', contact, name='contact'),

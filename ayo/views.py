@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 
-def fira(request):
-  template = loader.get_template('fira.html')
+def vina(request):
+  template = loader.get_template('vina.html')
   return HttpResponse(template.render())
 # def comen(request):
 #   template = loader.get_template('comen.html')
